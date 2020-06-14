@@ -1,5 +1,5 @@
 .js-clock {
-    width: 100px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,4 +8,5 @@
 
 .js-title {
     padding: 0;
+    font-size: 50px;
 }

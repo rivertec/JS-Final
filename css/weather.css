@@ -1,7 +1,14 @@
 
 .js-weather {
+    margin-top: 10px;
+}
+
+.bottom {
+    width: 80%;
     position: absolute;
     bottom: 5%;
     left: 10px;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
