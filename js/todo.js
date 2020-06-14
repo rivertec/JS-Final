@@ -149,11 +149,8 @@ function loadToDos() {
         const parsedFinished = JSON.parse(loadedFinished);
         parsedFinished.forEach(printFinished);
     } else {
-
-
     }
 }
-
 
 function init() {
     loadToDos();
