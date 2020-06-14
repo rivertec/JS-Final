@@ -125,8 +125,11 @@ function paintFinished(text) {
 function handleSubmit(event){
     event.preventDefault();
     const currentValue = toDoInput.value;
-    paintPending(currentValue);
-    toDoInput.value = "";
+    if (currentValue === ''){
+    } else{
+        paintPending(currentValue);
+        toDoInput.value = "";
+    };
 }
 
 function printPendings(toDo) {
