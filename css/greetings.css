@@ -1,0 +1,25 @@
+
+.hidden {
+    display: none;
+}
+
+.centered {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+    width: 200px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    
+}
+
+.js-nameInput {
+    width: 200px;
+}
+
+.greetings {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}

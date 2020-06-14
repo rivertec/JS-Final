@@ -1,0 +1,11 @@
+.js-clock {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.js-title {
+    padding: 0;
+}

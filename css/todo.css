@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+}
+
+ul{
+    padding: 0px;
+    width: 50%;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 25px;
+    padding-left: 40px;
+    color: white;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+li {
+    list-style: none;
+    padding-left: 0px;
+    color: white;
+}
+
+span {
+    padding-left: 10px;
+}
